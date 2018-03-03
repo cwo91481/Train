@@ -1,0 +1,78 @@
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+
+    body{
+        background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    }
+
+    
+.jumbotron{
+    background-color: rgb(52, 47, 70);
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.col-md-5ths{
+    font-family: 'Krona One', sans-serif;
+}
+
+.panel-heading{
+    font-family: 'Anton', sans-serif;
+}
+
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: trainFont;
+    src: url(cali.ttf);
+}
+
+h1 {
+    font-family: trainFont;
+    font-size: 200px;
+    text-align: center;
+}
+
+#trainImg {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #337ab7;
+    box-shadow:
+    0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 90%);
+}
